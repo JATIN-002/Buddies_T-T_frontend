@@ -722,8 +722,9 @@ header .search-bar-container label:hover {
  }
 
  header {
-  padding: 1.5rem;
-  position: relative;
+  padding: 1.5rem 2rem;
+  width: 100%;
+  box-sizing: border-box;
  }
 
  header .navbar {
@@ -767,6 +768,11 @@ header .search-bar-container label:hover {
 
  header .icons i {
   margin-right: 0;
+  font-size: 2rem;
+ }
+
+ header .logo {
+  font-size: 2rem;
  }
 }
 
