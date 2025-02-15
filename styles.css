@@ -73,6 +73,8 @@ header {
  align-items: center;
  justify-content: space-between;
  padding: 2rem 9%;
+ width: 100%;
+ box-sizing: border-box;
 }
 
 header .logo {
@@ -704,10 +706,11 @@ header .search-bar-container label:hover {
 }
 
 @media (max-width:991px) {
- header{
+ header {
   padding: 2rem;
+  width: 100%;
  }
- section{
+ section {
   padding: 2rem;
  }
 }
@@ -716,6 +719,19 @@ header .search-bar-container label:hover {
  
  #menu-bar{
   display: initial;
+ }
+ header {
+  padding: 1.5rem;
+ }
+ header .logo {
+  font-size: 2rem;
+ }
+ header .navbar a {
+  font-size: 1.7rem;
+ }
+ header .icons i {
+  font-size: 2rem;
+  margin-right: 1.5rem;
  }
  header .navbar {
   position: absolute;
